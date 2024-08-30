@@ -1,0 +1,59 @@
+.imagem{
+  height: 150px;
+  width: 150px;
+}
+
+.texto{
+  text-align: center;
+  
+  width: 800px;
+  margin: auto;
+}
+
+.cabecalho{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 45px;
+}
+
+.titulo{
+  gap: 30px;
+}
+
+
+
+
+
+.sub_imagem{
+  background-image: url('./Componentes/imagens-do-projeto/banner.jpg');
+  height: 40vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*classe lua e a cor de fundo da imagem */
+
+.lua  { 
+  background-color: black;
+  color: white;
+  
+}
+
+.button{
+  padding: 10px;
+  border-radius: 16px;
+}
+
+.estilo{
+  margin-top: 45px;
+}
+
+.assinatura{
+  margin-top: 45px;
+   font-family: 'Great Vibes', cursive;
+   color:  #B2987D;
+   font-size: 45px;
+}
